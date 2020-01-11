@@ -1,5 +1,5 @@
-from encode_CLI import encode
-from decode_CLI import decode
+from encode_cli import encode
+from decode_cli import decode
 
 
 def main():
