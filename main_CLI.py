@@ -11,7 +11,10 @@ def main():
 
     option = input("press 'E' for encode or 'D' for decode: ").lower()
     if option == 'e':
-
+        print(
+              "This program takes known index number (0-5) "\
+              "and a number of any length and encodes the number into an "\
+              "encoded text string.")
         index = input("Please enter your index: ")
         index = int(index)
         while index < 0 or index > 12:
